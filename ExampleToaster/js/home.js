@@ -15,6 +15,7 @@
 
     function showToast() {
         YeahToast.show({ title: "Toast title!", textContent: "Toast content!" });
+        YeahToast.show("Toast title!");
     }
 
     function customToast() {
